@@ -3,7 +3,7 @@ from time import sleep
 
 PAUSE_FLAG = True
 EXIT_FLAG = False
-SLEEP_INTERVAL = 0.1 # in milliseconds
+SLEEP_INTERVAL = 0.07 # in milliseconds
 WORDLIST = []
 WORDLIST_INDEX = 0
 with open("wordlist.txt", "r") as f:
